@@ -11,6 +11,19 @@
 		BC6411F52D11E3670062DFF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6411F42D11E3670062DFF6 /* ContentView.swift */; };
 		BC6411F72D11E36A0062DFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6411F62D11E36A0062DFF6 /* Assets.xcassets */; };
 		BC6411FA2D11E36A0062DFF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6411F92D11E36A0062DFF6 /* Preview Assets.xcassets */; };
+		BC6412012D11E4850062DFF6 /* MotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6412002D11E4850062DFF6 /* MotionView.swift */; };
+		BC6412032D11E4990062DFF6 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6412022D11E4990062DFF6 /* LocationView.swift */; };
+		BC6412052D11E4AC0062DFF6 /* DirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6412042D11E4AC0062DFF6 /* DirectionView.swift */; };
+		BC667E2B2D129943008E02C8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC667E2A2D129943008E02C8 /* CoreMotion.framework */; };
+		BC667E2D2D129971008E02C8 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC667E2C2D129971008E02C8 /* MotionManager.swift */; };
+		BC667E2F2D129F6D008E02C8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC667E2E2D129F6D008E02C8 /* CoreLocation.framework */; };
+		BC667E312D129F82008E02C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC667E302D129F82008E02C8 /* MapKit.framework */; };
+		BC667E332D129FD2008E02C8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC667E322D129FD2008E02C8 /* LocationManager.swift */; };
+		BC667E372D12A106008E02C8 /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC667E362D12A106008E02C8 /* MapViewRepresentable.swift */; };
+		BC667E392D12A333008E02C8 /* DirectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC667E382D12A333008E02C8 /* DirectionManager.swift */; };
+		BC667E412D12BE29008E02C8 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC667E402D12BE29008E02C8 /* SplashScreenView.swift */; };
+		BC667E432D12C01C008E02C8 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC667E422D12C01C008E02C8 /* SoundManager.swift */; };
+		BC667E452D12C02D008E02C8 /* SoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC667E442D12C02D008E02C8 /* SoundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,19 @@
 		BC6411F42D11E3670062DFF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BC6411F62D11E36A0062DFF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC6411F92D11E36A0062DFF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC6412002D11E4850062DFF6 /* MotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionView.swift; sourceTree = "<group>"; };
+		BC6412022D11E4990062DFF6 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		BC6412042D11E4AC0062DFF6 /* DirectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionView.swift; sourceTree = "<group>"; };
+		BC667E2A2D129943008E02C8 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		BC667E2C2D129971008E02C8 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		BC667E2E2D129F6D008E02C8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BC667E302D129F82008E02C8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BC667E322D129FD2008E02C8 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		BC667E362D12A106008E02C8 /* MapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewRepresentable.swift; sourceTree = "<group>"; };
+		BC667E382D12A333008E02C8 /* DirectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionManager.swift; sourceTree = "<group>"; };
+		BC667E402D12BE29008E02C8 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		BC667E422D12C01C008E02C8 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		BC667E442D12C02D008E02C8 /* SoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +52,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC667E312D129F82008E02C8 /* MapKit.framework in Frameworks */,
+				BC667E2F2D129F6D008E02C8 /* CoreLocation.framework in Frameworks */,
+				BC667E2B2D129943008E02C8 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				BC6411F12D11E3670062DFF6 /* FitTrack */,
+				BC667E292D129942008E02C8 /* Frameworks */,
 				BC6411F02D11E3670062DFF6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +85,16 @@
 				BC6411F42D11E3670062DFF6 /* ContentView.swift */,
 				BC6411F62D11E36A0062DFF6 /* Assets.xcassets */,
 				BC6411F82D11E36A0062DFF6 /* Preview Content */,
+				BC6412002D11E4850062DFF6 /* MotionView.swift */,
+				BC6412022D11E4990062DFF6 /* LocationView.swift */,
+				BC6412042D11E4AC0062DFF6 /* DirectionView.swift */,
+				BC667E2C2D129971008E02C8 /* MotionManager.swift */,
+				BC667E322D129FD2008E02C8 /* LocationManager.swift */,
+				BC667E362D12A106008E02C8 /* MapViewRepresentable.swift */,
+				BC667E382D12A333008E02C8 /* DirectionManager.swift */,
+				BC667E402D12BE29008E02C8 /* SplashScreenView.swift */,
+				BC667E422D12C01C008E02C8 /* SoundManager.swift */,
+				BC667E442D12C02D008E02C8 /* SoundView.swift */,
 			);
 			path = FitTrack;
 			sourceTree = "<group>";
@@ -65,6 +105,16 @@
 				BC6411F92D11E36A0062DFF6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC667E292D129942008E02C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC667E302D129F82008E02C8 /* MapKit.framework */,
+				BC667E2E2D129F6D008E02C8 /* CoreLocation.framework */,
+				BC667E2A2D129943008E02C8 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +187,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC6412052D11E4AC0062DFF6 /* DirectionView.swift in Sources */,
+				BC667E2D2D129971008E02C8 /* MotionManager.swift in Sources */,
+				BC667E452D12C02D008E02C8 /* SoundView.swift in Sources */,
 				BC6411F52D11E3670062DFF6 /* ContentView.swift in Sources */,
+				BC667E372D12A106008E02C8 /* MapViewRepresentable.swift in Sources */,
+				BC667E332D129FD2008E02C8 /* LocationManager.swift in Sources */,
+				BC667E392D12A333008E02C8 /* DirectionManager.swift in Sources */,
+				BC6412032D11E4990062DFF6 /* LocationView.swift in Sources */,
+				BC667E412D12BE29008E02C8 /* SplashScreenView.swift in Sources */,
+				BC6412012D11E4850062DFF6 /* MotionView.swift in Sources */,
+				BC667E432D12C01C008E02C8 /* SoundManager.swift in Sources */,
 				BC6411F32D11E3670062DFF6 /* FitTrackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +329,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FitTrack/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问摄像头以拍照";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要访问您的位置信息以提供健康追踪功能。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问麦克风以检测声音强度。";
+				INFOPLIST_KEY_NSMotionUsageDescription = "需要访问您的运动数据以提供健康追踪功能。\n需要访问您的运动数据以提供健康追踪功能。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +361,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FitTrack/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问摄像头以拍照";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要访问您的位置信息以提供健康追踪功能。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问麦克风以检测声音强度。";
+				INFOPLIST_KEY_NSMotionUsageDescription = "需要访问您的运动数据以提供健康追踪功能。\n需要访问您的运动数据以提供健康追踪功能。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

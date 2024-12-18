@@ -1,21 +1,51 @@
-//
-//  ContentView.swift
-//  FitTrack
-//
-//  Created by CHwm on 2024/12/18.
-//
+// ContentView.swift
 
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isActive = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            if isActive {
+                SplashScreenView(isActive: $isActive)
+            } else {
+                MainTabView()
+                    .transition(.opacity)
+            }
         }
-        .padding()
+        .animation(.easeInOut(duration: 1.0), value: isActive)
+    }
+}
+
+// 将原来的 TabView 移到一个新的视图中
+struct MainTabView: View {
+    var body: some View {
+        TabView {
+            MotionView()
+                .tabItem {
+                    Image(systemName: "figure.walk")
+                    Text("移动")
+                }
+            
+            LocationView()
+                .tabItem {
+                    Image(systemName: "map")
+                    Text("位置")
+                }
+            
+            DirectionView()
+                .tabItem {
+                    Image(systemName: "location.north.line")
+                    Text("方向")
+                }
+            
+            SoundView()
+                .tabItem {
+                    Image(systemName: "waveform.path.ecg")
+                    Text("声音")
+                }
+        }
     }
 }
 
